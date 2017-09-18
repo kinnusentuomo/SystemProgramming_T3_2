@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tuomomees.networkloader.NetworkLoader"
+    android:background="@color/black"
+    >
+
+
+    <TableRow>
+        <ListView
+            style="@style/ListViewStyle"
+            android:layout_height="495sp"
+            android:layout_width="wrap_content"
+            android:stackFromBottom="true"
+            android:transcriptMode="alwaysScroll"
+            android:inputType="text"
+            android:id="@+id/textList"/>
+    </TableRow>
+
+    <TableRow>
+        <EditText
+            style="@style/EditTextStyle"
+            android:id="@+id/WebAddress"
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textWebEditText" />
+
+    </TableRow>
+
+    <android.support.v4.widget.Space
+        android:layout_height="12sp"
+        android:layout_width="1sp"
+        />
+
+    <TableRow>
+        <Button
+            style="@style/ButtonStyle"
+            android:id="@+id/buttonGetData"
+            android:text="@string/button_get_data_label"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="onButtonGetDataClicked"
+            />
+    </TableRow>
+
+
+</TableLayout>

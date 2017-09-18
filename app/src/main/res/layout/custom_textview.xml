@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextView android:layout_height="fill_parent"
+    android:gravity="center"
+    android:layout_width="fill_parent"
+    android:id="@+id/tv" style="@style/ListViewStyle"
+    xmlns:android="http://schemas.android.com/apk/res/android"/>

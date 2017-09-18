@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NetworkLoader</string>
+    <string name="button_get_data_label">get data</string>
+</resources>
